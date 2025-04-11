@@ -1,0 +1,21 @@
+[core]
+  pager = delta
+	editor = vim
+[delta]
+  features = line-numbers decorations
+  syntax-theme = Monokai Extended
+[user]
+	name = redt974
+	email = t.vandier@ecole-ipssi.net
+[merge]
+	tool = vimdiff
+[color]
+	ui = auto
+[alias]
+	st = status
+	co = checkout
+	br = branch
+	cm = commit
+	lg = log --oneline --graph --all --decorate
+[credential]
+	helper = cache
