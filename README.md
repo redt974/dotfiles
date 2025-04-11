@@ -1,4 +1,4 @@
-# Dotfiles de Thib
+# Dotfiles (redt974)
 
 Ce dépôt contient mes configurations personnelles pour divers outils sur Linux, tels que Zsh, Kitty, Tmux, Starship, et Git. Ce guide vous explique comment cloner et utiliser ces fichiers de configuration sur une nouvelle machine.
 
