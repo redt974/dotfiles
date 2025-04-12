@@ -1,0 +1,60 @@
+{
+    "python.defaultInterpreterPath": "C:\\Users\\vandi\\AppData\\Local\\Microsoft\\WindowsApps\\python3.11.exe",
+    "security.workspace.trust.untrustedFiles": "open",
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    
+    "[css]": {
+        "editor.defaultFormatter": "vscode.css-language-features"
+    },
+    "editor.unicodeHighlight.allowedCharacters": {
+        "’": true,
+        " ": true
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "workbench.editorAssociations": {
+        "*.mp4": "vscode.videoPreview",
+        "*.png": "imagePreview.previewEditor"
+    },
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "git.autofetch": true,
+    "dotnetAcquisitionExtension.existingDotnetPath": [
+        
+        {
+            "extensionId": "ms-dotnettools.csharp",
+            "path": "C:/Program Files/dotnet/dotnet.exe"
+        }
+    ],
+    "workbench.startupEditor": "none",
+    "dotnet.defaultSolution": "omnisharp.defaultLaunchSolution",
+    "dotnet.server.useOmnisharp": true,
+    "git.openRepositoryInParentFolders": "never",
+    "python.createEnvironment.trigger": "off",
+    "files.associations": {
+        "*.html": "html"
+    },
+    "remote.portsAttributes": {
+        "3000": {
+            "protocol": "https"
+        }
+    },
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "remote.SSH.remotePlatform": {
+        "127.0.0.1": "linux",
+        "192.168.1.64": "linux",
+        "192.168.9.9": "linux",
+        "192.168.1.47": "linux",
+        "192.168.1.177": "linux",
+        "192.168.10.3": "linux"
+    },
+    "dart.flutterSdkPath": "C:\\Users\\vandi\\Documents\\Projets\\music-app\\flutter_music_player\\flutter",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "Atom One Dark",
+    "cmake.configureOnOpen": false,
+    "vstuc.refreshOnSave": true
+}
