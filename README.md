@@ -1,6 +1,6 @@
 # Dotfiles (redt974)
 
-Ce dépôt contient mes configurations personnelles pour divers outils sur Linux, tels que Zsh, Kitty, Tmux, Starship, et Git. Ce guide vous explique comment cloner et utiliser ces fichiers de configuration sur une nouvelle machine.
+Ce dépôt contient mes configurations personnelles pour divers outils sur Linux, tels que Zsh, Kitty, Tmux, Starship, Git, VSCode, Obsidian, et Neovim. Ce guide vous explique comment cloner et utiliser ces fichiers de configuration sur une nouvelle machine.
 
 ## Prérequis
 
@@ -11,6 +11,9 @@ Assurez-vous que les outils suivants sont installés sur votre machine :
 - [Starship](https://starship.rs/)
 - [Tmux](https://github.com/tmux/tmux)
 - [Git](https://git-scm.com/)
+- [VSCode](https://code.visualstudio.com/)
+- [Obsidian](https://obsidian.md/)
+- [Neovim](https://neovim.io/)
 
 ## Cloner le dépôt
 
@@ -33,7 +36,7 @@ Ensuite, naviguez vers le répertoire `dotfiles` et utilisez stow pour lier les 
 
 ```bash
 cd ~/dotfiles
-stow zsh kitty tmux starship git
+stow zsh kitty tmux starship git vscode obsidian nvim
 ```
 
 Cela créera des liens symboliques des fichiers de configuration dans les répertoires appropriés de votre système.
@@ -41,6 +44,12 @@ Cela créera des liens symboliques des fichiers de configuration dans les réper
 ## Personnalisation
 
 Les fichiers de configuration peuvent être modifiés directement dans le répertoire `dotfiles`. Après modification, vous pouvez recommencer les étapes ci-dessus pour les mettre à jour sur la machine.
+
+### Fichiers ajoutés :
+
+- **VSCode** : `settings.json`, et la liste des extensions installées.
+- **Obsidian** : Le dossier `.obsidian` contenant vos configurations et plugins.
+- **Neovim** : Les fichiers de configuration de Neovim (par exemple, `init.vim` ou `init.lua`).
 
 ## Mise à jour du dépôt
 
